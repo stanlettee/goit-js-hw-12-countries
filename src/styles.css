@@ -1,3 +1,33 @@
-h1 {
-    color: red
+body {   
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#heading {
+    color: #2a9d8f;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+#label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #264653;
+}
+
+#input {
+    padding: 10px 15px;
+    border: 2px solid #2a9d8f;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 300px;
+}
+
+#input:focus {
+    border-color: #e76f51;
+    outline: none;
+    background-color: #fffbe6;
 }
