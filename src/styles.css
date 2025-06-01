@@ -131,4 +131,9 @@ body {
   #input {
     font-size: 16px; 
   }
+  .maps {
+        word-wrap: break-word;   /* старый синтаксис */
+        overflow-wrap: anywhere; /* современный и универсальный */
+        word-break: break-word; 
+  }
 }

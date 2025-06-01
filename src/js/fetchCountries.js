@@ -51,7 +51,7 @@ function countryFunction(array, inputValue){
                 <p>Timezones: ${objectName.timezones}</p>
                 <p>Status: ${objectName.status}</p>
                 <p>Start of a week: ${objectName.startOfWeek}</p>
-                <p>${countryName} on a map: ${objectName.maps.googleMaps}</p>`
+                <p class='maps'>${countryName} on a map: ${objectName.maps.googleMaps}</p>`
                 break
         }     
     }
